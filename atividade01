@@ -1,0 +1,21 @@
+cont = 0
+numero = 5
+
+while cont < numero:
+    numeros = float(input(f"Informe o número: {cont}/n"))
+    cont = cont + 1
+
+if numeros <=5:
+    print("Condição não mais atendida")
+
+    
+
+cont = 0
+numero = 5
+
+while cont < numero:
+    numeros = float(input(f"Informe o número: {cont}/n"))
+    cont = cont + 1
+
+if numeros <=5:
+    print("Condição não mais atendida")
