@@ -1,0 +1,11 @@
+contador = 0
+numeros = 5
+soma = 0
+equencia = x1 + x2 + x3 + x4 + x5
+
+while contador > numeros:
+    numero = float(input("Digite o x{contador}: "))
+    soma = soma + numero
+    contador = contador + 1
+    if numero < 10:
+        print("Número inválido, informe novamente")
